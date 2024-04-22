@@ -1,0 +1,28 @@
+.editorContainer {
+    .ql-editor{
+        width: 8.5in;
+        min-height: 11in;
+        padding: 1in;
+        margin: 1rem;
+
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .ql-container{
+        border: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ql-toolbar{
+        position: sticky;
+        height: 10vh;
+        top: 0;
+        z-index: 1;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f4f4f5b3;
+    }
+}
